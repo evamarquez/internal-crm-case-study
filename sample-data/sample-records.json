@@ -1,0 +1,40 @@
+{
+  "clients": [
+    {
+      "id": "client_001",
+      "name": "Sample Commerce Group",
+      "status": "active",
+      "owner": "operations_lead"
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand_001",
+      "client_id": "client_001",
+      "name": "Sample Skincare Brand",
+      "market": "US",
+      "lifecycle_stage": "growth"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_001",
+      "brand_id": "brand_001",
+      "type": "content_delivery",
+      "status": "in_progress",
+      "delivery_owner": "content_manager",
+      "due_date": "2026-09-15"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "deliverable_001",
+      "project_id": "project_001",
+      "title": "Sample Collection Page Optimization",
+      "status": "review_ready",
+      "assignee": "seo_specialist",
+      "blocker": null,
+      "last_updated": "2026-08-11"
+    }
+  ]
+}
