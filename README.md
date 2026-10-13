@@ -100,3 +100,14 @@ See [privacy.md](privacy.md) for the full sanitization notes.
 - How rollout risk was handled
 - How private production work can be made reviewable without exposing confidential data
 
+## Project documentation
+
+Read the delivery evidence as a case study:
+
+- [Project brief](docs/project-brief.md)
+- [Delivery plan](docs/delivery-plan.md)
+- [Risk and decision register](docs/risk-and-decisions.md)
+- [Status report](docs/status-report.md)
+- [Close-out report](docs/close-out-report.md)
+
+The [documentation index](docs/README.md) explains how the artefacts fit together.
