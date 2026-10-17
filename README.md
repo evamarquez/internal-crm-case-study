@@ -1,115 +1,57 @@
-# Internal CRM Migration Case Study
+# Internal CRM Migration
 
-[View the visual project portfolio](https://www.by-evamarquez.com/portfolio/internal-crm-migration). This repository contains sanitized delivery documentation, not private application source code.
+**Technical project delivery | New Seas | Internal systems**
 
-Sanitized public case study of a private production CRM migration.
+Supported the move from Airtable to a custom CRM and project-management system, giving a 12-person operations team a clearer place to manage clients, projects, deliverables, and ownership.
 
-This repository does not publish the production CRM. It shows the problem,
-architecture, rollout approach and representative data model used to replace an
-Airtable-based operation with a custom internal tool for a 12-person team.
+[View the visual project case and documentation](https://www.by-evamarquez.com/portfolio/internal-crm-migration)
 
-## What It Is
+## Outcomes
 
-The production system became the operating layer for an agency team managing clients,
-brands, projects, deliverables and ownership. It replaced an Airtable base that had
-grown beyond what a spreadsheet-shaped workflow could support.
+- Replaced Airtable-dependent workflows with a custom internal operating system.
+- Centralized project, client, and deliverable visibility for a **12-person team**.
+- Supported rollout, documentation, and day-to-day adoption.
 
-The public version is a case study. It is designed for reviewers who want to evaluate
-technical project management, workflow design, migration judgment and internal-tool
-thinking without seeing private client data or business logic.
+## The problem
 
-## Problem
+Airtable had become difficult to maintain as business rules, team responsibilities, and workflows grew. The team needed a clearer system without interrupting active operations.
 
-The team was coordinating daily work through Airtable. It worked until the process
-became too complex:
+## My contribution
 
-- status fields were acting like workflow stages;
-- filtered views were acting like role-specific screens;
-- business rules lived in people's heads;
-- delivery visibility depended on manually maintained fields;
-- changes to the process became harder and riskier over time.
+- Mapped operational requirements and documented the current workflows.
+- Supported data-model design, migration planning, validation, and rollout.
+- Prepared process documentation, known issues, and handoff materials.
 
-The real job was not just to move data. It was to identify the actual operating model
-and design a system the team would keep using.
+The migration was a **team effort**. I supported the Operations Manager rather than claiming sole ownership of the entire project.
 
-## My Contributions
-
-- Process mapping across clients, brands, projects and deliverables
-- A cleaner data model for operational ownership and delivery status
-- Custom dashboard views for the team
-- Migration plan from Airtable to the new CRM
-- Coexistence period so the team could validate the new system while work continued
-- Known-issues register and decision log
-- SOPs and handoff documentation
-
-## Architecture
+## Delivery approach
 
 ```text
-Intake / existing records
-        |
-        v
-Data cleanup and schema mapping
-        |
-        v
-Custom CRM data model
-        |
-        +--> Client and brand views
-        +--> Project delivery views
-        +--> Deliverable ownership views
-        +--> Status and risk visibility
-        |
-        v
-Team rollout, SOPs and adoption support
+Existing Airtable workflows
+            |
+            v
+Requirements and data mapping
+            |
+            v
+Custom CRM and project views
+            |
+            v
+Validation and coexistence
+            |
+            v
+Team rollout and handoff
 ```
 
-See [architecture.md](architecture.md) for the expanded model.
-
-## Design Decisions
-
-**Migration as a coexistence period, not a single switch.** The old and new systems
-ran together long enough to discover hidden assumptions and missing workflow states.
-
-**Schema before screens.** The team did not need a prettier Airtable. It needed the
-real entities and relationships made explicit.
-
-**Documentation was part of delivery.** SOPs, decision logs and known issues were
-created so the system could keep running after handoff.
-
-## Results
-
-- Replaced the Airtable workflow for a 12-person team
-- Centralized visibility across clients, brands, projects and deliverables
-- Created a system that stayed in daily use after contract end
-
-## What Was Sanitized
-
-This public case study removes:
-
-- client and brand names;
-- real records;
-- internal URLs;
-- production database IDs;
-- screenshots with private information;
-- exact business rules that are not safe to publish;
-- production git history.
-
-See [privacy.md](privacy.md) for the full sanitization notes.
-
-## What Reviewers Can Evaluate
-
-- How the migration was framed
-- How the data model was simplified
-- How rollout risk was handled
-- How private production work can be made reviewable without exposing confidential data
+This is a conceptual diagram, not an export of the production implementation. [Read the architecture overview](architecture.md).
 
 ## Project documentation
 
-Read the delivery evidence as a case study:
+- [Project brief](docs/project-brief.md) — need, scope, and objectives
+- [Delivery plan](docs/delivery-plan.md) — migration and rollout
+- [Risk and decision register](docs/risk-and-decisions.md) — risks, trade-offs, and decisions
+- [Status report](docs/status-report.md) — implementation tracking
+- [Close-out report](docs/close-out-report.md) — handoff and outcomes
+- [Architecture](architecture.md) — high-level design
+- [Privacy boundaries](privacy.md) — protected information
 
-- [Project brief](docs/project-brief.md)
-- [Delivery plan](docs/delivery-plan.md)
-- [Risk and decision register](docs/risk-and-decisions.md)
-- [Status report](docs/status-report.md)
-- [Close-out report](docs/close-out-report.md)
-
-The [documentation index](docs/README.md) explains how the artefacts fit together.
+This public repository contains a **sanitized case study**, with illustrative sample data. It does not contain the operational CRM source code, customer records, credentials, or private business logic.
