@@ -1,5 +1,7 @@
 # Internal CRM Migration Case Study
 
+[View the visual project portfolio](https://www.by-evamarquez.com/portfolio/internal-crm-migration). This repository contains sanitized delivery documentation, not private application source code.
+
 Sanitized public case study of a private production CRM migration.
 
 This repository does not publish the production CRM. It shows the problem,
@@ -30,7 +32,7 @@ became too complex:
 The real job was not just to move data. It was to identify the actual operating model
 and design a system the team would keep using.
 
-## What I Built And Led
+## My Contributions
 
 - Process mapping across clients, brands, projects and deliverables
 - A cleaner data model for operational ownership and delivery status
