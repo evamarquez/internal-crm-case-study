@@ -44,6 +44,12 @@ Team rollout and handoff
 
 This is a conceptual diagram, not an export of the production implementation. [Read the architecture overview](architecture.md).
 
+## Key decisions and challenges
+
+- **Hidden business rules in Airtable:** Mapped workflows and relationships before designing the new CRM, so the system represented actual operational needs.
+- **Risk of disrupting ongoing work:** Used a coexistence and validation period rather than an abrupt switch, allowing the team to check workflows during migration.
+- **Adoption by a 12-person team:** Prepared views, SOPs, known-issue records, and handoff documentation to support continued daily use.
+
 ## Project documentation
 
 - [Project brief](docs/project-brief.md) — need, scope, and objectives
